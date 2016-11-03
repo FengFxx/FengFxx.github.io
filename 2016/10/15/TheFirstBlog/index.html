@@ -84,13 +84,19 @@
 
 
 
+<meta name="description" content="1. Doctype什么作用，标准模式和兼容模式的区别Doctype 位于文档声明第一行，用于声明告知浏览器用什么规范进行合理解析。
+2. 介绍一下你对浏览器内核的理解(1) 主要分成两部分：渲染引擎(layout engineer或Rendering Engine)和JS引擎(2) 渲染引擎：负责取得网页的内容（HTML、XML、图像等等）、整理讯息（例如加入CSS，以及计算网页的显示方式`，然">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CSS层叠样式表">
-<meta property="og:url" content="http://yoursite.com/2016/10/20/CSS层叠样式表/index.html">
+<meta property="og:title" content="HTML基础错题集">
+<meta property="og:url" content="http://yoursite.com/2016/10/15/TheFirstBlog/index.html">
 <meta property="og:site_name" content="Fengx">
-<meta property="og:updated_time" content="2016-10-20T01:35:32.529Z">
+<meta property="og:description" content="1. Doctype什么作用，标准模式和兼容模式的区别Doctype 位于文档声明第一行，用于声明告知浏览器用什么规范进行合理解析。
+2. 介绍一下你对浏览器内核的理解(1) 主要分成两部分：渲染引擎(layout engineer或Rendering Engine)和JS引擎(2) 渲染引擎：负责取得网页的内容（HTML、XML、图像等等）、整理讯息（例如加入CSS，以及计算网页的显示方式`，然">
+<meta property="og:updated_time" content="2016-10-20T07:55:15.169Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CSS层叠样式表">
+<meta name="twitter:title" content="HTML基础错题集">
+<meta name="twitter:description" content="1. Doctype什么作用，标准模式和兼容模式的区别Doctype 位于文档声明第一行，用于声明告知浏览器用什么规范进行合理解析。
+2. 介绍一下你对浏览器内核的理解(1) 主要分成两部分：渲染引擎(layout engineer或Rendering Engine)和JS引擎(2) 渲染引擎：负责取得网页的内容（HTML、XML、图像等等）、整理讯息（例如加入CSS，以及计算网页的显示方式`，然">
 
 
 
@@ -108,7 +114,7 @@
   };
 </script>
 
-  <title> CSS层叠样式表 | Fengx </title>
+  <title> HTML基础错题集 | Fengx </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -228,7 +234,7 @@
             
             
               
-                CSS层叠样式表
+                HTML基础错题集
               
             
           </h1>
@@ -240,8 +246,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-20T09:35:32+08:00" content="2016-10-20">
-              2016-10-20
+            <time itemprop="dateCreated" datetime="2016-10-15T02:04:22+08:00" content="2016-10-15">
+              2016-10-15
             </time>
           </span>
 
@@ -268,7 +274,23 @@
       
 
       
-        
+        <h2 id="1-Doctype什么作用，标准模式和兼容模式的区别"><a href="#1-Doctype什么作用，标准模式和兼容模式的区别" class="headerlink" title="1. Doctype什么作用，标准模式和兼容模式的区别"></a>1. Doctype什么作用，标准模式和兼容模式的区别</h2><p>Doctype 位于文档声明第一行，用于声明告知浏览器用什么规范进行合理解析。</p>
+<h2 id="2-介绍一下你对浏览器内核的理解"><a href="#2-介绍一下你对浏览器内核的理解" class="headerlink" title="2. 介绍一下你对浏览器内核的理解"></a>2. 介绍一下你对浏览器内核的理解</h2><p>(1) 主要分成两部分：渲染引擎(layout engineer或Rendering Engine)和JS引擎<br>(2) 渲染引擎：负责<code>取得网页的内容（HTML、XML、图像等等）</code>、<code>整理讯息（例如加入CSS，以及</code>计算网页的显示方式`，然后会输出至显示器或打印机。浏览器的内核的不同对于网页的释会有不同，所以渲染的效果也不相同。所有网页浏览器、电子邮件客户端以及其它需要编辑、络内容的应用程序都需要内核。<br>(3) JS引擎则：解析和执行javascript来实现网页的动态效果。</p>
+<h2 id="3-常见浏览器内核"><a href="#3-常见浏览器内核" class="headerlink" title="3.常见浏览器内核"></a>3.常见浏览器内核</h2><ul>
+<li>Trident内核: IE 360</li>
+<li>Gecko内核 </li>
+<li>Presto内核：Opera7以上</li>
+<li>webkit内核：Chrome,Safira<a id="more"></a>
+</li>
+</ul>
+<h2 id="4-html5有哪些新特性、移除了那些元素？"><a href="#4-html5有哪些新特性、移除了那些元素？" class="headerlink" title="4. html5有哪些新特性、移除了那些元素？"></a>4. html5有哪些新特性、移除了那些元素？</h2><ul>
+<li>H5主要是关于<code>图像</code>，<code>位置</code>，<code>存储</code>，  <code>多任务</code>等功能增加。<br>  （1）绘画 canvas；<br>  （2）用于媒介回放的 video和audio元素；<br>  （3）本地离线存储localStorage长期存储数据，浏览器关闭后数据不丢失；sessionStrong的数据在浏览器关闭后自动删除；<br>  （4）语意化更好的内容元素，比如 article、footer、header、nav、section;<br>  （5）表单控件，calendar、date、time、email、url、search;<br>  （6）新的技术webworker, websocket, Geolocation;</li>
+<li>H5移除的元素<br>  （1）纯表现的元素：basefont，big，center，font, s，strike，tt，u;<br>  （2）对可用性产生负面影响的元素：frame，frameset，noframes；</li>
+<li>关于H5的兼容问题<br>对于不支持H5新标签的时候，可以通过用js的方法（document.creatElement）动态创建H5的新标签。浏览器支持新标签后，还需要添加默认样式。<br>同样也可以使用成熟的框架比如：html5shim；<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"> &lt;!­­[if lt IE 9]&gt;</div><div class="line">&lt;script&gt; src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&lt;/script&gt;</div><div class="line"> &lt;![endif]­­&gt;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="5-如何区分HTML和HTML5"><a href="#5-如何区分HTML和HTML5" class="headerlink" title="5.如何区分HTML和HTML5"></a>5.如何区分HTML和HTML5</h2><p>DOCTYPE声明\新增的结构元素\功能元素</p>
+
       
     </div>
 
@@ -292,16 +314,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/10/15/TheSecond/" rel="next" title="TheSecond">
-                <i class="fa fa-chevron-left"></i> TheSecond
+              <a href="/2016/10/15/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/11/03/blog/" rel="prev" title="blog">
-                blog <i class="fa fa-chevron-right"></i>
+              <a href="/2016/10/15/TheSecond/" rel="prev" title="TheSecond">
+                TheSecond <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -402,7 +424,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Doctype什么作用，标准模式和兼容模式的区别"><span class="nav-number">1.</span> <span class="nav-text">1. Doctype什么作用，标准模式和兼容模式的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-介绍一下你对浏览器内核的理解"><span class="nav-number">2.</span> <span class="nav-text">2. 介绍一下你对浏览器内核的理解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-常见浏览器内核"><span class="nav-number">3.</span> <span class="nav-text">3.常见浏览器内核</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-html5有哪些新特性、移除了那些元素？"><span class="nav-number">4.</span> <span class="nav-text">4. html5有哪些新特性、移除了那些元素？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-如何区分HTML和HTML5"><span class="nav-number">5.</span> <span class="nav-text">5.如何区分HTML和HTML5</span></a></li></ol></div>
             
           </div>
         </section>
